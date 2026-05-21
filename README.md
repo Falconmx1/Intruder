@@ -23,17 +23,20 @@ cd Intruder
 chmod +x intruder.sh  # Linux
 # Para Windows: ejecutar PowerShell como admin
 
-🧪 Uso
-Linux
-bash
 
+📋 Ejemplos de uso rápido
+
+# Linux - Escaneo rápido
 ./intruder.sh
-./intruder.sh --verbose
-./intruder.sh --report
 
-Windows (PowerShell)
-powershell
+# Linux - Modo honeypot (¡cuidado! atrae atacantes)
+./intruder.sh --honeypot
 
-Set-ExecutionPolicy Bypass -Scope Process
-.\intruder.ps1
+# Linux - Monitoreo con Telegram
+./intruder.sh --server --telegram-token "123:ABC" --telegram-chat "456"
 
+# Windows - Escaneo completo
+.\intruder.ps1 --verbose
+
+# Windows - Modo server con Slack
+.\intruder.ps1 --server --slack-webhook "https://hooks.slack.com/services/..."
