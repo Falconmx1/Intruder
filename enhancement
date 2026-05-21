@@ -1,0 +1,14 @@
+### Título: [FEATURE] Nombre de la feature
+
+**Problema que resuelve:**
+(qué necesidad cubre)
+
+**Solución propuesta:**
+(cómo implementarlo)
+
+**Alternativas consideradas:**
+(opcional)
+
+**Ejemplo de uso:**
+```bash
+./intruder.sh --nueva-funcion
